@@ -3,8 +3,10 @@
 	"version": "1.0.0",
 	"manifest_version": 3,
 
-	"page_action": {
-		"default_title": "Settings",
-		"default_popup": "./index.html"
+	"icons": {
+		"16": "images/extension image 16.png",
+		"32": "images/extension image 32.png",
+		"48": "images/extension image 48.png",
+		"128": "images/extension image 128.png"
 	}
 }
