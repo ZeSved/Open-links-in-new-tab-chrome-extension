@@ -1,0 +1,6 @@
+{
+	"name": "VS Code Functionality",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"default_popup": "./index.html"
+}
