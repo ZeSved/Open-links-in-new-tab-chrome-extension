@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"manifest_version": 3,
 
-	"browser_action": {
+	"page_action": {
 		"default_title": "Settings",
 		"default_popup": "./index.html"
 	}
