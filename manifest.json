@@ -1,5 +1,5 @@
 {
-	"name": "VS Code Functionality",
+	"name": "Open link in new tab",
 	"version": "1.0.0",
 	"manifest_version": 3,
 
@@ -7,10 +7,17 @@
 		"default_popup": "index.html"
 	},
 
+	"content_scripts": [
+		{
+			"js": ["app.js"],
+			"matches": ["https://*/*", "http://*/*"]
+		}
+	],
+
 	"icons": {
-		"16": "images/extension image 16.png",
-		"32": "images/extension image 32.png",
-		"48": "images/extension image 48.png",
-		"128": "images/extension image 128.png"
+		"16": "images/ext_img_16.png",
+		"32": "images/ext_img_32.png",
+		"48": "images/ext_img_48.png",
+		"128": "images/ext_img_128.png"
 	}
 }
